@@ -4,6 +4,6 @@ class AverageOfThreeNum {
         int secondNum = 8;
         int thirdNum = 9;
         int average = (firstNum + secondNum + thirdNum)/3;
-        System.out.println(average);
+        System.out.println("Average of three number is: "+average);
     }
 }
