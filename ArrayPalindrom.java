@@ -1,0 +1,16 @@
+public class ArrayPalindrom {
+    public static void main(String[] args) {
+        int []arr={1,2,3,2,1};
+        boolean ispalindrome=true;
+        int i=0;
+        int j=arr.length-1;
+        for(i=0;i<j;i++,j--) {
+            if (arr[i]!=arr[j]) 
+                ispalindrome=false;         
+        }
+        if(ispalindrome)
+            System.out.println("it is palindrome");
+        else
+            System.out.println("it is not palindrome");
+    }
+}
